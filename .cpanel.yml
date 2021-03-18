@@ -1,7 +1,5 @@
 ---
 deployment:
-    tasks:
-        - export DEPLOYPATH=/home/gomojuin/aguapotablezapotitan.gomojuincometax.com/
-        - /bin/cp -R css $DEPLOYPATH
-        - /bin/cp -R img $DEPLOYPATH
-        - /bin/cp index.html $DEPLOYPATH
+  tasks:
+    - export DEPLOYPATH=/home/gomojuin/aguapotablezapotitan.gomojuincometax.com/
+    - /bin/cp -R css $DEPLOYPATH
