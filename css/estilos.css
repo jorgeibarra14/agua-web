@@ -221,6 +221,16 @@ main .sobre-nosotros {
     border-radius: 5px;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
 }
+.cards .carddv {
+    background: #44AE58;
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
 
 .cards .cardd img {
     width: 100px;
@@ -315,6 +325,12 @@ footer {
     margin: 20px 0 0 0;
     color: #9e9797;
 }
+.titulo-final-l {
+    text-align: center;
+    font-size: 12px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
 
 @media screen and (max-width:900px) {
     header {
@@ -369,6 +385,9 @@ footer {
 }
 
 @media screen and (max-width:500px) {
+    .header {
+        background-color: #BBD6F7;
+    }
     nav {
         text-align: center;
         padding: 30px 0 0 0;
