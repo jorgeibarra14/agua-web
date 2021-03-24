@@ -199,7 +199,7 @@ main .sobre-nosotros {
     color: #fff;
 }
 
-.imagen-port:hover .hover-galeria {
+.imagen-port .hover-galeria {
     transform: scale(1);
 }
 
@@ -240,6 +240,14 @@ main .sobre-nosotros {
     border-radius: 50%;
     display: block;
 }
+.cards .carddv img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+}
 
 .cards .cardd>.contenido-texto-card {
     width: 60%;
@@ -247,6 +255,15 @@ main .sobre-nosotros {
 }
 
 .cards .cardd>.contenido-texto-card p {
+    font-weight: 300;
+    padding-top: 5px;
+}
+.cards .carddv>.contenido-texto-card {
+    width: 60%;
+    color: #fff;
+}
+
+.cards .carddv>.contenido-texto-card p {
     font-weight: 300;
     padding-top: 5px;
 }
@@ -366,6 +383,15 @@ footer {
     .cards .cardd:first-child {
         margin-bottom: 30px;
     }
+    .cards .carddv {
+        width: 90%;
+    }
+    .carddv {
+        padding-top: 5%;
+    }
+    .cards .carddv:first-child {
+        margin-bottom: 30px;
+    }
     /* servicios */
     .servicio-cont {
         justify-content: center;
@@ -417,13 +443,23 @@ footer {
         width: 95%;
     }
     /* Clients */
-    .cards .card {
+    .cards .cardd {
         height: 450px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .cards .card img {
+    .cards .cardd img {
+        width: 90px;
+        height: 90px;
+    }
+    .cards .carddv {
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cards .carddv img {
         width: 90px;
         height: 90px;
     }
