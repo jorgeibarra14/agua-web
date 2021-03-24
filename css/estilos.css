@@ -306,6 +306,13 @@ main .sobre-nosotros {
 }
 
 
+/*ANUNCIO*/
+
+.anuncio div * {
+    color: #293190;
+}
+
+
 /* footer */
 
 footer {
@@ -427,6 +434,7 @@ footer {
     }
     .nombre-grand {
         display: none !important;
+        /* height: 90%; display: flex; align-items: center;*/
     }
     .textos-header h1 {
         font-size: 35px;
