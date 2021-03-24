@@ -18,7 +18,8 @@
     <header class="header">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <button class="navbar-toggler navbar-toggler-right" style="color: #3575F8 !important; width: 30%; border: 1px solid #3575F8;  float: right; z-index: 1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler navbar-toggler-right" style="color: #3575F8 !important; width: 30%; border: 1px solid #3575F8;  float: right; z-index: 1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
                   Menú
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
@@ -58,16 +59,25 @@
             </div>
         </nav>
         <section class="textos-header" id="inicio">
-            <img src="/img/logo-agua.png" style="width: 200px" alt="">
-            <h1 class="nombre-grand">Comité de agua potable <br> Zapotitán de Hidalgo</h1>
+            <div class="row" style="width: 100%;">
+                <div class="col-lg-7 col-md-7">
+                    <img src="/img/logo-agua.png" style="width: 200px" alt="">
+                </div>
+                <div class="col-lg-5 col-md-5">
+                    <h1 class="nombre-grand" style="height: 90%; display: flex; align-items: center;">Comité de agua potable <br> Zapotitán de Hidalgo</h1>
+                </div>
+
+            </div>
         </section>
-        <div class="wave" style="height: 150px; overflow: hidden;">
-            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+        <section>
+            <div class="wave" style="height: 150px; overflow: hidden;">
+                <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
                 <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
                     style="stroke: none; fill: #fff;">
                 </path>
             </svg>
-        </div>
+            </div>
+        </section>
     </header>
     <main>
         <section id="sobre-nosotros" class="contenedor sobre-nosotros">
@@ -79,13 +89,10 @@
                     <p style="text-transform: capitalize;"> Usuarios de Agua Potable de Zapotitán A.C. es una empresa administrada por un comité dedicado al bienestar de todos los usuarios. </p>
 
                     <h3><span></span>Misión</h3>
-                    <p>Ser una Asociación Civil la cual administre de forma transparente los recursos financieros,
-                        trabaje bajo lineamientos previamente establecidos por la Asamblea entregando resultados a
-                        corto y mediano plazo con el establecimiento de Proyectos que beneficien a todos los usuarios.</p>
+                    <p>Ser una Asociación Civil la cual administre de forma transparente los recursos financieros, trabaje bajo lineamientos previamente establecidos por la Asamblea entregando resultados a corto y mediano plazo con el establecimiento de
+                        Proyectos que beneficien a todos los usuarios.</p>
                     <h3><span></span>Visión</h3>
-                    <p>Ser una Asociación Civil autónoma e independiente que trabaje en conjunto con las dependencias
-                        locales buscando siempre el beneficio común de la Población apoyándose de la tecnología para
-                        llegar a ser una Asociación Civil vanguardista.</p>
+                    <p>Ser una Asociación Civil autónoma e independiente que trabaje en conjunto con las dependencias locales buscando siempre el beneficio común de la Población apoyándose de la tecnología para llegar a ser una Asociación Civil vanguardista.</p>
                 </div>
             </div>
         </section>
@@ -274,14 +281,14 @@
             </div>
         </section>
         <section id="proyectos" class="clientes donaciones">
-            <h2 class="titulo">PROYECTOS EN MARCHA  2021 </h2>
+            <h2 class="titulo">PROYECTOS EN MARCHA 2021 </h2>
             <!-- <h4 class="subtitulo">El comité de agua potabla hace de su conocimiento los articulos necesarios.</h4> -->
             <div class="cards">
                 <div class="carddv">
                     <img src="img/well.png" alt="">
                     <div class="contenido-texto-card">
                         <h4>Pozo de agua</h4>
-                        <p>Se perforará en este mes de abril 2021 un nuevo pozo el cual se espera abastecer el 90% de la demanda por lo que se les solicita a todos los Usuarios realizar su cooperación para dicha obra.                         </p>
+                        <p>Se perforará en este mes de abril 2021 un nuevo pozo el cual se espera abastecer el 90% de la demanda por lo que se les solicita a todos los Usuarios realizar su cooperación para dicha obra. </p>
                     </div>
                 </div>
             </div>
@@ -315,15 +322,15 @@
     <script>
         $(function() {
             $('#WAButton').floatingWhatsApp({
-            phone: '', //WhatsApp Business phone number International format-
-            //Get it with Toky at https://toky.co/en/features/whatsapp.
-            headerTitle: 'Necesitas ayuda?', //Popup Title
-            popupMessage: 'Como te podemos ayudar?', //Popup Message
-            showPopup: true, //Enables popup display
-            buttonImage: '<img src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/whatsapp.svg" />', //Button Image
-            headerColor: '#3575F8', //Custom header color
-            backgroundColor: '#44AE58', //Custom background button color
-            position: "right"    
+                phone: '', //WhatsApp Business phone number International format-
+                //Get it with Toky at https://toky.co/en/features/whatsapp.
+                headerTitle: 'Necesitas ayuda?', //Popup Title
+                popupMessage: 'Como te podemos ayudar?', //Popup Message
+                showPopup: true, //Enables popup display
+                buttonImage: '<img src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/whatsapp.svg" />', //Button Image
+                headerColor: '#3575F8', //Custom header color
+                backgroundColor: '#44AE58', //Custom background button color
+                position: "right"
             });
         });
     </script>

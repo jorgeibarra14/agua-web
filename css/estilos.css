@@ -49,7 +49,7 @@ body {
 
 .header {
     width: 100%;
-    height: 600px;
+    /*height: 600px;*/
     /* fallback for old browsers */
     /*background: -webkit-linear-gradient(to right, hsla(215deg 79% 65% / 40%), hsl(213deg 62% 53% / 66%)), url(../img/20210213_184150.jpg);*/
     /* Chrome 10-25, Safari 5.1-6 */
@@ -101,7 +101,7 @@ header .textos-header {
 }
 
 .wave {
-    position: absolute;
+    /*position: absolute;*/
     bottom: 0;
     width: 100%;
 }
@@ -221,6 +221,7 @@ main .sobre-nosotros {
     border-radius: 5px;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
 }
+
 .cards .carddv {
     background: #44AE58;
     display: flex;
@@ -240,6 +241,7 @@ main .sobre-nosotros {
     border-radius: 50%;
     display: block;
 }
+
 .cards .carddv img {
     width: 100px;
     height: 100px;
@@ -258,6 +260,7 @@ main .sobre-nosotros {
     font-weight: 300;
     padding-top: 5px;
 }
+
 .cards .carddv>.contenido-texto-card {
     width: 60%;
     color: #fff;
@@ -342,6 +345,7 @@ footer {
     margin: 20px 0 0 0;
     color: #9e9797;
 }
+
 .titulo-final-l {
     text-align: center;
     font-size: 12px;
@@ -507,16 +511,20 @@ footer {
     color: #ffffff;
     text-align: left;
 }
+
 .styled-table th,
 .styled-table td {
     padding: 12px 15px;
 }
+
 .styled-table th {
-    text-align:center;
+    text-align: center;
 }
+
 .precio {
-    text-align:center;
+    text-align: center;
 }
+
 .styled-table tbody tr {
     border-bottom: 1px solid #dddddd;
 }
@@ -528,8 +536,8 @@ footer {
 .styled-table tbody tr:last-of-type {
     border-bottom: 2px solid #009879;
 }
+
 .styled-table tbody tr.active-row {
     font-weight: bold;
     color: #009879;
 }
-
